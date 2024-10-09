@@ -78,7 +78,7 @@ const Contacts = () => {
                 position: 'relative',
                 height: '400px',
                 backgroundImage:
-                  'url("https://plant-shop-calgary.myshopify.com/cdn/shop/files/Homepage_Slider_AUG2016_Welcome12_1400x.jpg?v=1614298073")',
+                `url(${process.env.PUBLIC_URL}/contactslide.webp)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 display: 'flex',

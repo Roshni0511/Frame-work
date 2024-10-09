@@ -35,8 +35,8 @@ const items = [
     {
       id: 1,
       name: "Black Laxmi Kamal (Bare Rooted)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_rHy.webp?v=1710848625",
-      hoverImage: "https://plantorbit.com/cdn/shop/files/image_HPR.webp?v=1710848625&width=360",
+      image: `${process.env.PUBLIC_URL}/img-1.webp`,
+      hoverImage: `${process.env.PUBLIC_URL}/hov-1.webp`,
       oldPrice: 110,
       price: 39,
       discount: 64,
@@ -50,8 +50,8 @@ const items = [
     {
       id: 2,
       name: "Variegated String Of Pearls (Bare Rooted) ",
-      image: "https://plantorbit.com/cdn/shop/files/image_pgz_1.webp?v=1710862368",
-      hoverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzkcg9W_KJObEbNuAyITAMKx27NYgXxu-NQ&s",
+      image: `${process.env.PUBLIC_URL}/img-2.webp`,
+      hoverImage: `${process.env.PUBLIC_URL}/hov-2.jpg`,
       oldPrice: 119,
       price: 69,
       discount: 42,
@@ -63,8 +63,8 @@ const items = [
     {
       id: 3,
       name: "Crassula Jade plant (Rubber plant)",
-      image: "https://plantorbit.com/cdn/shop/files/image_Ha4.webp?v=1710853595&width=713",
-      hoverImage:"https://kyari.co/cdn/shop/articles/pepper-face-plant-small-pot_2_1.jpg?v=1678096199&width=480",
+      image: `${process.env.PUBLIC_URL}/img-3.webp`,
+      hoverImage:`${process.env.PUBLIC_URL}/hov-3.webp`,
       oldPrice: 110,
       price: 69,
       discount: 37,
@@ -76,8 +76,8 @@ const items = [
     {
       id: 4,
       name: "Othonna capensis - Ruby Necklace",
-      image: "	https://plantorbit.com/cdn/shop/products/Othonnacapensis-RubyNecklace.png?v=1717496041",
-      hoverImage:" https://plantorbit.com/cdn/shop/files/image_jHl.webp?v=1717496041&width=360",
+      image: `${process.env.PUBLIC_URL}/img-4.webp`,
+      hoverImage:`${process.env.PUBLIC_URL}/hov-4.webp`,
       oldPrice: 110,
       price: 69,
       discount: 37,
@@ -89,8 +89,8 @@ const items = [
     {
         id: 5,
         name: " Echeveria Peacockii  - Blue Bird (Bare Rooted)",
-        image: "	https://plantorbit.com/cdn/shop/files/image_bDy.webp?v=1710862602",
-        hoverImage:"  https://plantorbit.com/cdn/shop/files/image_QmR.webp?v=1710862602&width=360",
+        image:`${process.env.PUBLIC_URL}/img-5.webp`,
+        hoverImage:`${process.env.PUBLIC_URL}/hov-5.webp`,
       
         oldPrice: 199,
         price: 99,
@@ -103,8 +103,8 @@ const items = [
       {
         id: 6,
         name: " Echinopsis  Peanut Cactus (Bare Rooted)  ",
-        image: "	https://plantorbit.com/cdn/shop/files/image_Lrz.webp?v=1710859926",
-        hoverImage:"https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/1280x1280/products/7006/29207/peanut_cactus__37076.1651160216.740.740__15880.1716421616.jpg?c=3",
+        image: `${process.env.PUBLIC_URL}/img-6.webp`,
+        hoverImage:`${process.env.PUBLIC_URL}/hov-6.jpg`,
         oldPrice: 199,
         price: 99,
         discount: 50,
@@ -116,8 +116,8 @@ const items = [
       {
         id: 7,
         name: " Sanseveria Hybrid Air purifier (Bare Rooted)",
-        image: "	https://plantorbit.com/cdn/shop/files/Sanseveriahybrid.webp?v=1711179316",
-        hoverImage:" 	https://plantorbit.com/cdn/shop/files/ok_32.png?v=1711179316&width=360",
+        image:`${process.env.PUBLIC_URL}/img-7.webp`,
+        hoverImage:`${process.env.PUBLIC_URL}/hov-7.webp`,
         oldPrice: 99,
         price: 69,
         discount: 30,
@@ -129,8 +129,8 @@ const items = [
       {
         id: 8,
         name: " VARIEGATED JADE PLANT (BARE ROOTED)",
-        image: "	https://plantorbit.com/cdn/shop/files/image_-OC.webp?v=1710870535",
-        hoverImage:"	https://plantorbit.com/cdn/shop/files/ok.png?v=1710870535&width=360",
+        image:`${process.env.PUBLIC_URL}/img-8.webp`,
+        hoverImage:`${process.env.PUBLIC_URL}/hov-8.webp`,
         oldPrice: 250,
         price: 149,
         discount: 40,
@@ -146,7 +146,7 @@ const seller = [
     {
       id: 1,
       name: "Pink Syngonium in 2 inches Netpot",
-      image: "	https://plantorbit.com/cdn/shop/files/image_KbO.webp?v=1715068090&width=360",
+      image: `${process.env.PUBLIC_URL}/plant-1.webp`,
       oldPrice: 199,
       price: 89,
       discount: 55,
@@ -157,7 +157,7 @@ const seller = [
     {
       id: 2,
       name: "Syngonium 'Pink Schott', Syngonium Plant",
-      image: "https://plantorbit.com/cdn/shop/files/image_3Bh_1.webp?v=1723108008&width=360",
+      image: `${process.env.PUBLIC_URL}/plant-2.webp`,
       oldPrice: 0, 
       price: 79,
       discount: 0, 
@@ -168,7 +168,7 @@ const seller = [
     {
       id: 3,
       name: "The Four Seasons Syngonium Mickey Pink",
-      image: "	https://plantorbit.com/cdn/shop/files/image_Obf.webp?v=1716538487&width=360",
+      image:`${process.env.PUBLIC_URL}/plant-3.webp`,
       oldPrice: 110,
       price: 69,
       discount: 10,
@@ -179,7 +179,7 @@ const seller = [
     {
       id: 4,
       name: "Alocasia Cucullata in Netpot",
-      image: "https://plantorbit.com/cdn/shop/files/image_Ui9.webp?v=1715070657&width=360",
+      image:`${process.env.PUBLIC_URL}/plnat-4.webp`,
       oldPrice: 199,
       price: 69,
       discount: 65,
@@ -191,7 +191,7 @@ const seller = [
     {
       id: 5,
       name: "The Four Seasons Syngonium Mickey Pink",
-      image: "	https://plantorbit.com/cdn/shop/files/image_LL5.webp?v=1716543670&width=360",
+      image:`${process.env.PUBLIC_URL}/plant-5.webp`,
       oldPrice: 110,
       price: 69,
       discount: 10,
@@ -202,7 +202,7 @@ const seller = [
     {
       id: 6,
       name: "The Four Seasons Syngonium Mickey Pink",
-      image: "	https://plantorbit.com/cdn/shop/files/image_ucw.png?v=1723106539&width=360",
+      image:`${process.env.PUBLIC_URL}/plant-6.webp`,
       oldPrice: 110,
       price: 69,
       discount: 10,
@@ -213,7 +213,7 @@ const seller = [
     {
       id: 7,
       name: "Alocasia Cucullata in Netpot",
-      image: "https://5.imimg.com/data5/SELLER/Default/2024/9/448881706/NR/XN/JF/69408943/brazilian-lucky-wood.png",
+      image: `${process.env.PUBLIC_URL}/plant-7.png`,
       oldPrice: 199,
       price: 69,
       discount: 65,
@@ -224,7 +224,7 @@ const seller = [
     {
       id: 8,
       name: "The Four Seasons Syngonium Mickey Pink",
-      image: "	https://plantorbit.com/cdn/shop/files/ModernNeutralDaylightSavingTimeClockInstagramPost.png?v=1726979191",
+      image:`${process.env.PUBLIC_URL}/plant-8.webp`,
       oldPrice: 110,
       price: 69,
       discount: 10,
@@ -240,25 +240,25 @@ const seller = [
       title: "Why Plant Orbit is the Best Place to Buy Succulents",
       date: "March 31, 2024",
       content: "In the world to find  best place to buy succulents online, succulents have emerged as the darlings of the digital green scene. These Beautiful pleasing plants have captured the hearts of plant enthusiasts...",
-      image: "https://plantorbit.com/cdn/shop/articles/image_-OC.webp?v=1711908494",
+      image:`${process.env.PUBLIC_URL}/blog-1.webp`,
     },
     {
       title: "How to care for string of pearls",
       date: "March 4, 2023",
       content: "String of pearls grow and care : String of pearls (Senecio rowleyanus) is a popular and low-maintenance trailing succulent that is native to South Africa. It is known for its...",
-      image: "https://plantorbit.com/cdn/shop/articles/31TngpuwIIL.jpg?v=1677910841",
+      image: `${process.env.PUBLIC_URL}/blog-2.jpg`,
     },
     {
       title: "How to propagate echeveria",
       date: "March 4, 2023",
       content: "String of pearls grow and care : String of pearls (Senecio rowleyanus) is a popular and low-maintenance trailing succulent that is native to South Africa. It is known for its...",
-      image: "	https://plantorbit.com/cdn/shop/articles/echeveria_elegans_1200x1200_1.webp?v=1708258369&width=720",
+      image:`${process.env.PUBLIC_URL}/blog-3.webp`,
     },
     {
       title: "How to grow succulents in summer",
       date: "March 4, 2023",
       content: "Succulents are known for their ability to thrive in dry and arid conditions, making them a popular choice for summer gardens. Here are some tips for growing succulents in the...",
-      image: "https://plantorbit.com/cdn/shop/articles/Untitled_design_2.png?v=1708258195&width=720",
+      image:`${process.env.PUBLIC_URL}/blog-4.webp`,
     },
   ];
 
@@ -270,7 +270,7 @@ const seller = [
       price: 20,
       originalPrice: 40,
       discount: 50,
-      image: '	https://plantorbit.com/cdn/shop/files/Untitleddesign_14.png?v=1712570734&width=360', 
+      image: `${process.env.PUBLIC_URL}/cute-1.webp`, 
       isSoldOut: false,
       onSale: true,
     },
@@ -280,7 +280,7 @@ const seller = [
       price: 10,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_Hna.webp?v=1712571266&width=360',
+      image: `${process.env.PUBLIC_URL}/cute-2.webp`,
       isSoldOut: false,
       onSale: false,
     },
@@ -290,7 +290,7 @@ const seller = [
       price: 12,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_cO3.webp?v=1712570995&width=360', 
+      image: `${process.env.PUBLIC_URL}/cute-3.webp`, 
       isSoldOut: true,
       onSale: false,
     },
@@ -300,7 +300,7 @@ const seller = [
       price: 40,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_SSX.webp?v=1712572225&width=360', 
+      image: `${process.env.PUBLIC_URL}/cute-4.webp`, 
       isSoldOut: false,
       onSale: false,
     },
@@ -310,7 +310,7 @@ const seller = [
       price: 45,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_RAg.webp?v=1716015767&width=360', 
+      image: `${process.env.PUBLIC_URL}/cute-5.webp`, 
       isSoldOut: true,
       onSale: false,
     },
@@ -320,7 +320,7 @@ const seller = [
       price: 50,
       originalPrice: null,
       discount: null,
-      image: '		https://plantorbit.com/cdn/shop/files/image_1vo.webp?v=1712571139&width=360',
+      image:`${process.env.PUBLIC_URL}/cute-6.webp`,
       isSoldOut: false,
       onSale: false,
     },
@@ -330,7 +330,7 @@ const seller = [
       price: 30,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_ps8.webp?v=1712573675&width=360', 
+      image: `${process.env.PUBLIC_URL}/cute-7.webp`, 
       isSoldOut: true,
       onSale: false,
     },
@@ -340,7 +340,7 @@ const seller = [
       price: 100,
       originalPrice: null,
       discount: null,
-      image: '	https://plantorbit.com/cdn/shop/files/image_tBO.webp?v=1715757458&width=360',
+      image: `${process.env.PUBLIC_URL}/cute-8.webp`,
       isSoldOut: false,
       onSale: false,
     },
@@ -613,7 +613,7 @@ const FirstPage = () => {
     <Grid item xs={12} md={6} sx={{ display: 'flex', justifyContent: 'center' }}> 
       <Avatar
         alt="Gardening"
-        src={'https://images.ctfassets.net/i3tkg7dt3kro/kcUqtWUlsa9S7TwV9J9z5/ec199a3e4c3212e4fecd8d839ff48e86/top-plant-care-tips-15-1.jpg'}
+        src={`${process.env.PUBLIC_URL}/about.jpg`}
         sx={{
           width: { xs: 350, md: 400 }, 
           height: { xs: 350, md: 400 }, 
@@ -912,7 +912,7 @@ const FirstPage = () => {
             <CardMedia
               component="img"
               height="385"
-              image="	https://plantorbit.com/cdn/shop/files/Untitled.jpg?v=1712036133" 
+              image={	`${process.env.PUBLIC_URL}/tips.webp`}
               alt="Plant care image"
             />
           </Card>

@@ -8,32 +8,32 @@ const services = [
   {
     title: 'Cleaning Ocean',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-1.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-1.png`,
   },
   {
     title: 'Dust Recycling',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-2.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-2.png`,
   },
   {
     title: 'Plant Seedlings',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-3.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-3.png`,
   },
   {
     title: 'Carbon Offsetting',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-4.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-4.png`,
   },
   {
     title: 'Renewable Energy',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-5.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-5.png`,
   },
   {
     title: 'Global Warming',
     description: 'Alternative innovation to ethical network environmental whiteboard',
-    imageUrl: 'https://html.ditsolution.net/echofy/assets/images/home2/services-6.png',
+    imageUrl: `${process.env.PUBLIC_URL}/ser-6.png`,
   },
 ];
 
@@ -42,73 +42,73 @@ const tools = [
     {
       title: 'Multi-Color Decorative Pebble Stones (100 g)',
       price: '20.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/products/Multicolorstone.png?v=1712297644&width=360',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-1.webp`,
       available: true,
     },
     {
       title: 'Small Green Pebbles (25 g)',
       price: '7.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/products/GeenPebbles_0886ac95-ac26-46a9-bacc-2a068a0c1892.png?v=1712297685&width=360',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-2.webp`,
       available: true,
     },
     {
       title: 'Activated Charcoal',
       price: '10.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_hSR.webp?v=1712508458&width=360',
+      imageUrl:`${process.env.PUBLIC_URL}/tools-3.webp`,
       available: false,  // Sold out product
     },
     {
       title: 'Light Blue Decorative Pebble Stones (100 g)',
       price: '20.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_hJ1.webp?v=1712297787&width=713',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-4.webp`,
       available: true,
     },
     {
       title: 'Orange Decorative Pebble Stones (100 g)',
       price: '20.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_0WC.webp?v=1712298168&width=713',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-5.webp`,
       available: true,
     },
     {
       title: 'Small Mustard Yellow Pebbles (50 g)',
       price: '15.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_2Y2_8ae0f1be-eba3-407f-aa4b-70afd0b29e0a.webp?v=1712301087&width=713',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-6.webp`,
       available: true,
     },
     {
       title: 'Small Black Pebbles (25 g)',
       price: '7.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_Hmv.webp?v=1712300456&width=713',
+      imageUrl: `${process.env.PUBLIC_URL}/tools-7.webp`,
       available: true,
     },
     {
       title: 'Small Green Pebbles (50 g)',
       price: '15.00',
-      imageUrl: 'https://plantorbit.com/cdn/shop/files/image_5LF_4cda600e-f016-4b7e-be39-eda9b67ced54.webp?v=1712297698&width=713',
+      imageUrl:`${process.env.PUBLIC_URL}/tools-8.webp`,
       available: true,
     },
     {
         title: 'Spray Bottle Nozzle',
         price: '69',
-        imageUrl: 'https://plantorbit.com/cdn/shop/files/image_DR0.webp?v=1712294541&width=360',
+        imageUrl: `${process.env.PUBLIC_URL}/tools-9.webp`,
         available: true,
       },
       {
         title: 'GARDEN TAGS ( SET OF 10 )',
         price: '160.00',
-        imageUrl: 'https://plantorbit.com/cdn/shop/files/image_wRI_608fc98c-796d-444a-8b24-b43cabdfa297.webp?v=1712298600&width=713',
-        available: false,  // Sold out product
+        imageUrl:`${process.env.PUBLIC_URL}/tools-10.webp`,
+        available: false, 
       },
       {
         title: 'GARDEN TAGS 11 CM ( SET OF 2 )',
         price: '19.00',
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXsFbVD86zX_C7ENANgHuhR_MXGthafPEB4K_vMouxuDMpJQIpdWvpK_0jUP6XiLuUfbo&usqp=CAU',
+        imageUrl: `${process.env.PUBLIC_URL}/tools-11.jpg`,
         available: true,
       },
       {
         title: 'Wood Ash',
         price: '10.00',
-        imageUrl: 'https://plantorbit.com/cdn/shop/files/image_bLq.webp?v=1712508299&width=360',
+        imageUrl: `${process.env.PUBLIC_URL}/tools-12.webp`,
         available: false,  
       },
   ];
@@ -122,7 +122,7 @@ const GardenTools = () => {
           position: 'relative',
           height: '400px',
           backgroundImage:
-            'url("https://www.skyechooks.com/wp-content/uploads/2024/04/Need-creative-gardening-tool-storage-ideas.png")',
+          `url(${process.env.PUBLIC_URL}/gardenslide.png)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',

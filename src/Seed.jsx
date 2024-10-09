@@ -14,7 +14,7 @@ const seller = [
     {
       id: 1,
       name: " ZINNIA RED OPEN POLLINATED SEEDS (25-30 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/products/ZINNIAREDOPENPOLLINATED.png?v=1658905586&width=360",
+      image:`${process.env.PUBLIC_URL}/sumer-1.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -26,7 +26,7 @@ const seller = [
     {
       id: 2,
       name: "SLISIANTHUS PINK  HYBRID SEEDS (10 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/LISIANTHUSPINK.png?v=1660390647&width=360",
+      image: `${process.env.PUBLIC_URL}/sumer-2.webp`,
       oldPrice: 0, 
       price: 100,
       discount: 0, 
@@ -37,7 +37,7 @@ const seller = [
     {
       id: 3,
       name: "  COLEUS MIX HYBRID SEEDS (30 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/COLEUSMIX.png?v=1660218106&width=360",
+      image: `${process.env.PUBLIC_URL}/sumer-3.webp`,
       oldPrice: 0,
       price: 89,
       discount: 10,
@@ -48,7 +48,7 @@ const seller = [
     {
       id: 4,
       name: "   CYPRESS VINE HYBRID SEEDS (20 seeds) ",
-      image: "https://plantorbit.com/cdn/shop/products/CYPRESSVINE.png?v=1660217747&width=360",
+      image:`${process.env.PUBLIC_URL}/sumer-4.webp`,
       oldPrice: 0,
       price: 50,
       discount: 65,
@@ -60,7 +60,7 @@ const seller = [
     {
       id: 5,
       name: "    Portulaca Double / Moss Rose / 9' O Clock Mix Open Pollinated Seeds",
-      image: "	https://plantorbit.com/cdn/shop/products/PORTULACADOUBLE.png?v=1659000113&width=360",
+      image: `${process.env.PUBLIC_URL}/sumer-5.webp`,
       oldPrice: 0,
       price: 49,
       discount: 10,
@@ -71,7 +71,7 @@ const seller = [
     {
       id: 6,
       name: "  ZINNIA WHITE OPEN POLLINATED SEEDS (25-30 seeds) ",
-      image: "	https://plantorbit.com/cdn/shop/products/ZINNIAWHITEOPENPOLLINATED.png?v=1658905010&width=360",
+      image:`${process.env.PUBLIC_URL}/sumer-6.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -84,7 +84,7 @@ const seller = [
       name:
     "  MORNING GLORY MIX HYBRID SEEDS (15-20 seeds)"
     ,
-      image: "https://plantorbit.com/cdn/shop/products/MORNINGGLORYMIX.png?v=1659683660&width=360",
+      image: `${process.env.PUBLIC_URL}/sumer-7.webp`,
       oldPrice: 0,
       price: 59,
       discount: 65,
@@ -97,7 +97,7 @@ const seller = [
       name:
      " SUNFLOWER MINNIATURE HYBRID SEEDS (20-25 seeds)",
     
-      image: "https://plantorbit.com/cdn/shop/products/SUNFLOWERMINNIATURE.png?v=1659522441&width=360",
+      image: `${process.env.PUBLIC_URL}/sumer-8.webp`,
       oldPrice: 0,
       price: 49,
       discount: 10,
@@ -108,7 +108,7 @@ const seller = [
     {
         id: 9,
         name: "   KOCHIA BUSH OPEN POLLINATED SEEDS (25-30 seeds)",
-        image: "	https://plantorbit.com/cdn/shop/products/KOCHIABUSH.png?v=1659000372&width=360",
+        image: `${process.env.PUBLIC_URL}/sumer-9.webp`,
         oldPrice: 80,
         price: 49,
         discount: 51,
@@ -122,7 +122,7 @@ const seller = [
         name: 
              " Petunia violet hybrid seeds (100 seeds)"
             ,
-        image: "https://plantorbit.com/cdn/shop/products/Petuniaviolet.png?v=1658902704&width=360",
+        image: `${process.env.PUBLIC_URL}/sumer-10.webp`,
         oldPrice: 150, 
         price: 79,
         discount: 47, 
@@ -135,7 +135,7 @@ const seller = [
         name:   
               "COCKSCOMB MIX OPEN POLLINATED SEEDS (50-60 seeds)"
             ,
-        image: "https://plantorbit.com/cdn/shop/products/COCKSCOMBMIX.png?v=1658997889&width=360",
+        image: `${process.env.PUBLIC_URL}/sumer-11.webp`,
         oldPrice: 0,
         price: 39,
         discount: 10,
@@ -146,7 +146,7 @@ const seller = [
       {
         id: 12,
         name: " SUNFLOWER RED HYBRID SEEDS (20-22 seeds)",
-        image: "https://plantorbit.com/cdn/shop/products/SUNFLOWERRED.png?v=1659687497&width=360",
+        image: `${process.env.PUBLIC_URL}/sumer-12.webp`,
         oldPrice: 0,
         price: 79,
         discount: 65,
@@ -162,7 +162,7 @@ const seller = [
     {
       id: 1,
       name: "DAISY MIXED HYBRID SEEDS (100 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/DAISYMIXEd.png?v=1658839072&width=360",
+      image: `${process.env.PUBLIC_URL}/winter-1.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -174,7 +174,7 @@ const seller = [
     {
       id: 2,
       name: "Dahlia Hybrid Mix Flower Seeds,(25 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/Dahilamix.png?v=1658895523&width=360",
+      image:`${process.env.PUBLIC_URL}/winter-2.webp`,
       oldPrice: 150, 
       price: 100,
       discount: 20, 
@@ -185,7 +185,7 @@ const seller = [
     {
       id: 3,
       name: "  CINERARIA MIXED HYBRID SEEDS (70-80 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/CINERARIAMIXED.png?v=1658838867&width=360",
+      image: `${process.env.PUBLIC_URL}/winter-3.webp`,
       oldPrice:110,
       price: 89,
       discount: 10,
@@ -196,7 +196,7 @@ const seller = [
     {
       id: 4,
       name: "  LUPIN MIX HYBRID SEEDS (20 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/LUPINMIX.png?v=1658838159&width=360",
+      image:`${process.env.PUBLIC_URL}/winter-4.webp`,
       oldPrice: 100,
       price: 50,
       discount: 65,
@@ -208,7 +208,7 @@ const seller = [
     {
       id: 5,
       name: "    RANANCULUS – BLOOMINGDALE MIX HYBRID SEEDS (5 seeds)",
-      image: "https://plantorbit.com/cdn/shop/products/RANANCULUS_BLOOMINGDALE.png?v=1658904681&width=360",
+      image: `${process.env.PUBLIC_URL}/winter-5.webp`,
       oldPrice: 100,
       price: 49,
       discount: 10,
@@ -219,7 +219,7 @@ const seller = [
     {
       id: 6,
       name: "MORPANKHI / THUJA / ORIENTAL ARBOR HYBRID SEEDS (10 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/products/Untitled-design-2021-04-12T153852.879.jpg?v=1658898425&width=360",
+      image:`${process.env.PUBLIC_URL}/winter-6.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -232,7 +232,7 @@ const seller = [
       name:
     "  LAVENDER HYBRID SEEDS (30-40 seeds)"
     ,
-      image: "https://plantorbit.com/cdn/shop/products/LAVENDER.png?v=1712513195&width=360",
+      image: `${process.env.PUBLIC_URL}/winter-7.webp`,
       oldPrice: 90,
       price: 59,
       discount: 65,
@@ -245,7 +245,7 @@ const seller = [
       name:
      " PANSY MIXED OPEN POLLINATED SEEDS (70-80 seeds)",
     
-      image: "https://plantorbit.com/cdn/shop/products/PANSYMIXEDOPENPOLLINATED.png?v=1658834502&width=360",
+      image: `${process.env.PUBLIC_URL}/winter-8.webp`,
       oldPrice: 80,
       price: 49,
       discount: 10,
@@ -256,7 +256,7 @@ const seller = [
     {
         id: 9,
         name: "   BRANCHYSCOME MIXED OPEN POLLINATED SEEDS (100 seeds)",
-        image: "https://plantorbit.com/cdn/shop/products/BRANCHYSCOMEMIXEDOPENPOLLINATED.png?v=1658830551&width=360",
+        image: `${process.env.PUBLIC_URL}/winter-9.webp`,
         oldPrice: 80,
         price: 49,
         discount: 51,
@@ -270,7 +270,7 @@ const seller = [
         name: 
              " Gazania Mix Hybrid Seeds (40 seeds)"
             ,
-        image: "https://plantorbit.com/cdn/shop/products/Gazaniamix.png?v=1658895945&width=360",
+        image:`${process.env.PUBLIC_URL}/winter-10.webp`,
         oldPrice: 150, 
         price: 79,
         discount: 47, 
@@ -283,7 +283,7 @@ const seller = [
         name:   
               "STOCKS MIXED OPEN POLLINATED SEEDS (70-80 seeds)"
             ,
-        image: "https://plantorbit.com/cdn/shop/products/STOCKSMIXEDOPENPOLLINATED.png?v=1658833601&width=360",
+        image: `${process.env.PUBLIC_URL}/winter-11.webp`,
         oldPrice: 90,
         price: 39,
         discount: 10,
@@ -294,7 +294,7 @@ const seller = [
       {
         id: 12,
         name: "Ornamental kale hybrid seeds (40 seeds)",
-        image: "https://plantorbit.com/cdn/shop/products/Ornamentalkale.png?v=1658896724&width=360",
+        image: `${process.env.PUBLIC_URL}/winter-12.webp`,
         oldPrice:110,
         price: 79,
         discount: 65,
@@ -309,7 +309,7 @@ const seller = [
     {
       id: 1,
       name: "STRAWBERRY HYBRID SEEDS (100 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_YJ.webp?v=1712515049&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-1.webp`,
       
       oldPrice: 80,
       price: 39,
@@ -322,7 +322,7 @@ const seller = [
     {
       id: 2,
       name: "STRAWBERRY HYBRID SEEDS (100 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_GXH.webp?v=1712515241&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-2.webp`,
       oldPrice: 150, 
       price: 100,
       discount: 20, 
@@ -333,7 +333,7 @@ const seller = [
     {
       id: 3,
       name: " PAPAYA HYBRID SEEDS (25-30 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_xB.webp?v=1712514831&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-3.webp`,
       oldPrice:110,
       price: 89,
       discount: 10,
@@ -344,7 +344,7 @@ const seller = [
     {
       id: 4,
       name: " WATERMELON HYBRID SEEDS (30 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_n7q.webp?v=1712512921&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-4.webp`,
       oldPrice: 100,
       price: 50,
       discount: 65,
@@ -356,7 +356,7 @@ const seller = [
     {
       id: 5,
       name: " KACHARI HYBRID SEEDS (50 seeds)",
-      image: "https://plantorbit.com/cdn/shop/files/image_gsR.webp?v=1712515150&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-5.webp`,
       oldPrice: 100,
       price: 49,
       discount: 10,
@@ -367,7 +367,7 @@ const seller = [
     {
       id: 6,
       name: "Muskmelon ( Kharbooj) Hybrid Seeds (50 seeds)",
-      image: "		https://plantorbit.com/cdn/shop/files/image_mw1.webp?v=1712514961&width=360",
+      image: `${process.env.PUBLIC_URL}/fruit-6.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -382,7 +382,7 @@ const seller = [
     {
       id: 1,
       name: "TOMATO DESI VEGETABLES SEEDS (50 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_HT3.webp?v=1712523089&width=360",
+      image:`${process.env.PUBLIC_URL}/veg-1.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -394,7 +394,7 @@ const seller = [
     {
       id: 2,
       name: "SPINACH (GREEN) DESI VEGETABLE SEEDS (200 seeds)",
-      image: "https://plantorbit.com/cdn/shop/files/image_Htm_4a5ef0a4-9fd2-4f03-b652-0c41cf90024d.webp?v=1712524281&width=360",
+      image:`${process.env.PUBLIC_URL}/veg-2.webp`,
       oldPrice: 150, 
       price: 100,
       discount: 20, 
@@ -405,7 +405,7 @@ const seller = [
     {
       id: 3,
       name: " CAPSICUM (RED) DESI VEGETABLE SEEDS (20 seeds)",
-      image: "https://plantorbit.com/cdn/shop/files/image_tfJ_ab2e5f61-cf69-44a6-a056-2ce307f60c40.webp?v=1712515517&width=713",
+      image:`${process.env.PUBLIC_URL}/veg-3.webp`,
       oldPrice:110,
       price: 89,
       discount: 10,
@@ -416,7 +416,7 @@ const seller = [
     {
       id: 4,
       name: " CHERRY TOMATO RED HYBRID SEEDS (40 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_6n8.webp?v=1712523617&width=360",
+      image: `${process.env.PUBLIC_URL}/veg-4.webp`,
       oldPrice: 100,
       price: 50,
       discount: 65,
@@ -428,7 +428,7 @@ const seller = [
     {
       id: 5,
       name: "   CORIANDER DESI VEGETABLE SEEDS (200 seeds)",
-      image: "	https://plantorbit.com/cdn/shop/files/image_JXH.webp?v=1712526428&width=360",
+      image: `${process.env.PUBLIC_URL}/veg-5.webp`,
       oldPrice: 100,
       price: 49,
       discount: 10,
@@ -439,7 +439,7 @@ const seller = [
     {
       id: 6,
       name: "CUCUMBER DESI VEGETABLE SEEDS (40 seeds)",
-      image: "		https://plantorbit.com/cdn/shop/files/image_15E.webp?v=1712526223&width=360",
+      image: `${process.env.PUBLIC_URL}/veg-6.webp`,
       oldPrice: 80,
       price: 39,
       discount: 51,
@@ -452,7 +452,7 @@ const seller = [
       name:
     " LADY FINGER/ BHINDI DESI VEGETABLE SEEDS (40 seeds)"
     ,
-      image: "https://plantorbit.com/cdn/shop/files/image_RMH_59ff2609-28bd-49ea-9945-b08039c4ceec.webp?v=1712528821&width=713",
+      image:`${process.env.PUBLIC_URL}/veg-7.webp`,
       oldPrice: 90,
       price: 59,
       discount: 65,
@@ -465,7 +465,7 @@ const seller = [
       name:
      " GREEN CHILLI DESI VEGETABLE SEEDS (50 seeds) ",
     
-      image: "	https://plantorbit.com/cdn/shop/files/image_9Kg.webp?v=1712527830&width=360",
+      image: `${process.env.PUBLIC_URL}/veg-8.webp`,
       oldPrice: 80,
       price: 49,
       discount: 10,
@@ -476,7 +476,7 @@ const seller = [
     {
         id: 9,
         name: " LETTUCE GREEN HYBRID SEEDS (40-50 seeds)",
-        image: "https://plantorbit.com/cdn/shop/files/image_PR5_22912bc4-4c0d-43d5-a798-8599d17c4e46.webp?v=1712528146&width=713",
+        image: `${process.env.PUBLIC_URL}/veg-9.webp`,
         oldPrice: 80,
         price: 49,
         discount: 51,
@@ -490,7 +490,7 @@ const seller = [
         name: 
              " PEAS DESI VEGETABLE SEEDS (30 seeds)"
             ,
-        image: "	https://plantorbit.com/cdn/shop/files/image_P-9.webp?v=1712530163&width=360",
+        image: `${process.env.PUBLIC_URL}/veg-10.webp`,
         oldPrice: 150, 
         price: 79,
         discount: 47, 
@@ -503,7 +503,7 @@ const seller = [
         name:   
               "CARROT DESI VEGETABLE SEEDS (50 seeds)"
             ,
-        image: "	https://plantorbit.com/cdn/shop/files/image_q-7_206e6343-f2c6-4ce8-a750-5bd243610af6.webp?v=1712523401&width=713",
+        image: `${process.env.PUBLIC_URL}/veg-11.webp`,
         oldPrice: 90,
         price: 39,
         discount: 10,
@@ -514,7 +514,7 @@ const seller = [
       {
         id: 12,
         name: "BRINJAL (LONG) DESI VEGETABLE SEEDS (50 seeds)",
-        image: "https://plantorbit.com/cdn/shop/files/image_bWC.webp?v=1712518441&width=360",
+        image: `${process.env.PUBLIC_URL}/veg-12.webp`,
         oldPrice:110,
         price: 79,
         discount: 65,
@@ -973,6 +973,9 @@ const Seed = () => {
           }}
         >
           <Container maxWidth="lg">
+          <Typography variant="h4" color="green" gutterBottom align="center" sx={{ padding: '0 20px 20px 20px' }}>
+              Best Seller
+            </Typography>
             <Grid container spacing={4} justifyContent="center">
               {vegetable.map((product) => (
                 <Grid
@@ -1099,7 +1102,7 @@ const Seed = () => {
               <h3>Summer Flower Seeds</h3>
             </Box>
             <Box className="image-section ">
-              <img src="https://plantorbit.com/cdn/shop/collections/Summer_Flower_Seeds.png?v=1662034686&width=750" alt="Summer Flower Seeds"
+              <img src={`${process.env.PUBLIC_URL}/slide-1.webp`}
                />
             </Box>
           </Box>
@@ -1109,7 +1112,7 @@ const Seed = () => {
               <h3>Winter Flower Seeds</h3>
             </Box>
             <Box className="image-section">
-              <img src="https://plantorbit.com/cdn/shop/collections/Untitled-design-_6.webp?v=1662017952&width=750" alt="Winter Flower Seeds" />
+              <img src={`${process.env.PUBLIC_URL}/slide-2.webp`} />
             </Box>
           </Box>
 
@@ -1118,7 +1121,7 @@ const Seed = () => {
               <h3>Fruit Seeds</h3>
             </Box>
             <Box className="image-section">
-              <img src="https://plantorbit.com/cdn/shop/collections/Fruit_seeds.webp?v=1663658099&width=750" alt="Fruit Seeds" />
+              <img src={`${process.env.PUBLIC_URL}/slide-3.webp`} alt="Fruit Seeds" />
             </Box>
           </Box>
 
@@ -1128,7 +1131,7 @@ const Seed = () => {
               
             </Box>
             <Box className="image-section">
-              <img src="https://plantorbit.com/cdn/shop/collections/Untitled-design-_7.webp?v=1662026081&width=750" alt="Vegetable Seeds" />
+              <img src={`${process.env.PUBLIC_URL}/slide-4.webp`}alt="Vegetable Seeds" />
             </Box>
           </Box>
     
@@ -1156,7 +1159,7 @@ const Seed = () => {
     <Grid item xs={12} sm={12} md={4} lg={4} textAlign="center">
       <Box>
         <img
-          src="https://cdn-icons-png.flaticon.com/512/4313/4313500.png"
+          src={`${process.env.PUBLIC_URL}/odd-1.png`}
           alt="Quality Products"
           width={50}
         />
@@ -1176,19 +1179,19 @@ const Seed = () => {
         </Typography>
         <Box sx={{ mt: 2, display: 'flex', justifyContent: 'center' }}>
           <img
-            src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202206/gpay_1200x768.jpeg?VersionId=6CKJE5JkttRHIed4nOPNM4MJDqS004Dc"
+            src={`${process.env.PUBLIC_URL}/odd-2.webp`}
             alt="GPay"
             width={50}
             style={{ marginRight: '10px' }}
           />
           <img
-            src="https://pbs.twimg.com/card_img/1837061334518607872/y2Jvu92L?format=jpg&name=large"
+            src={`${process.env.PUBLIC_URL}/odd-3.png`}
             alt="PhonePe"
             width={50}
             style={{ marginRight: '10px' }}
           />
           <img
-            src="https://cdn.zeebiz.com/sites/default/files/2024/01/03/274966-upigpay.jpg"
+            src={`${process.env.PUBLIC_URL}/odd-4.avif`}
             alt="UPI"
             width={50}
           />
@@ -1199,11 +1202,11 @@ const Seed = () => {
     <Grid item xs={12} sm={12} md={4} lg={4} textAlign="center">
       <Box>
         <img
-          src="https://cdn-icons-png.flaticon.com/512/3197/3197666.png"
+          src={`${process.env.PUBLIC_URL}/odd-5.png`}
           alt="Return Policy"
           width={50}
         />
-        <Typography variant="h6" fontWeight="bold" mt={2}>
+        <Typography variant="h6" fontWeight="bold" >
           7-10 Days Return
         </Typography>
         <Typography variant="body2" color="textSecondary">

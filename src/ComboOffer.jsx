@@ -12,57 +12,57 @@ const comboData = [
   {
     price: "199 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/199.jpg?v=1708510494"
+      `${process.env.PUBLIC_URL}/offer-1.webp`
     ]
   },
   {
     price: "299 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/299.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-2.webp`
     ]
   },
   {
     price: "399 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/399.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-3.webp`
     ]
   },
 
   {
     price: "499 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/499.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-4.webp`
     ]
   },
   {
     price: "599 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/599.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-5.webp`
     ]
   },
   {
     price: "699 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/699.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-6.webp`
     ]
   },
 
   {
     price: "799 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/799.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-7.webp`
     ]
   },
   {
     price: "899 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/899.jpg?v=1708510494"
+       `${process.env.PUBLIC_URL}/offer-8.webp`
     ]
   },
   {
     price: "999 Combo",
     images: [
-      "https://cdn.shopify.com/s/files/1/0598/1444/5195/files/999.jpg?v=1708510494"
+        `${process.env.PUBLIC_URL}/offer-9.webp`
     ]
   },
 ];
@@ -97,7 +97,7 @@ const ComboOffer = () => {
       position: 'relative',
       height: '400px',
       backgroundImage:
-        'url("https://cdn.quicksell.co/-MmU9zyIWbjl5Fis9vMM/products/-NpmeeMmR-bDDB0sBMbG.jpg")',
+        `url(${process.env.PUBLIC_URL}/combo.jpg)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       display: 'flex',
@@ -216,27 +216,26 @@ const ComboOffer = () => {
            We Accept
          </Typography>
          <img
-           src="https://th-i.thgim.com/public/business/Industry/rwd1be/article26796387.ece/alternates/FREE_1200/vbk-GooglePay"
+           src={ `${process.env.PUBLIC_URL}/gpay.jpg`}
            alt="Payment Methods"
            style={{ width: '15%', marginTop: '10px' , paddingRight:"10px"   }}
          />
          <img
-           src="https://www.phonepe.com/webstatic/8109/static/PhonePe_vertical-16158be8710408f3561e1d07d01d5d89.png"
+           src={ `${process.env.PUBLIC_URL}/phoneper.png`}
            alt="Payment Methods"
            style={{ width: '15%', marginTop: '10px', paddingRight:"10px"   }}
          />
           <img
-           src="  https://yt3.googleusercontent.com/5OqL88exM25Ew26whWDOgJwJ1I67kiCZr9TVxwT_2CVK-rxKH4qmL5peq72WgSMw6i_7znsI3Q=s900-c-k-c0x00ffffff-no-rj"
+           src={ `${process.env.PUBLIC_URL}/paytm.jpg`}
+           style={{ width: '15%', marginTop: '10px' , paddingRight:"10px"  }}
+         />
+          <img
+           src={ `${process.env.PUBLIC_URL}/upi.jpg`}
            alt="Payment Methods"
            style={{ width: '15%', marginTop: '10px' , paddingRight:"10px"  }}
          />
           <img
-           src="   https://m.economictimes.com/thumb/msid-74960608,width-1200,height-900,resizemode-4,imgsize-49172/upi-twitter.jpg"
-           alt="Payment Methods"
-           style={{ width: '15%', marginTop: '10px' , paddingRight:"10px"  }}
-         />
-          <img
-           src=" https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/visa-mastercard-agree-to-give-gas-pumps-break-on-emv-shift-showcase_image-9-p-2335.jpg"
+           src={ `${process.env.PUBLIC_URL}/visa.jpg`}
            alt="Payment Methods"
            style={{ width: '15%', marginTop: '10px' , paddingRight:"10px"  }}
          />
